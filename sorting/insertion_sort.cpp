@@ -14,6 +14,8 @@ int main(){
  /*IDEA: pick every element and compare it to the ones on it left  */
   
  //running from i to n-1
+
+ // time complexity: worst case and average= O(n^2) best case=O(n)
     for(int i=1;i<=n;i++){
       int  j=i;
       while(j<0 && a[j-1]>a[j]){
@@ -25,5 +27,5 @@ int main(){
         cout << x << " ";
     }
 
-    return 0;
-}
+     return 0;
+}}
