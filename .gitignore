@@ -10,7 +10,7 @@
 # Precompiled headers
 *.gch
 
-# Debug files
+
 *.dSYM/
 
 # IDE / Editor files
