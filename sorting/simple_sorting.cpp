@@ -4,13 +4,18 @@ using namespace std;
 int main() {
     int n;
     cin >> n;
+    // average and worst time complexity=O(log n)
+    //space complexity :O(log n)
 
     vector<int> a(n);
     for (int i = 0; i < n; i++) {
-        cin >> a[i];
+        cin >> a[i];                                     
+                                                           
+                                                           
     }
 
     // Sort full array
+     // this uses quick sort heap sort and insterion sort internally 
     vector<int> fullSort = a;
     sort(fullSort.begin(), fullSort.end());
 
