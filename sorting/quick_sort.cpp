@@ -63,7 +63,8 @@ Partitioning is done*/
     swap(a[low], a[j]);
     return j;
 }
-
+//time complexity: O(NlogN)
+//space complxity:O(1)  
 void quickSort(vector<int> &a, int low, int high) {
     if (low < high) {
         int p = part(a, low, high);
