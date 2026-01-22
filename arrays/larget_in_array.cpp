@@ -1,4 +1,5 @@
-
+#include <bits/stdc++.h>
+using namespace std;
 
 /*
 Approach 3: Linear Scan (Index-based for loop)
